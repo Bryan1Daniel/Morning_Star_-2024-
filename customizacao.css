@@ -1,0 +1,105 @@
+body {
+  background-color: rgb(50, 50 ,50);
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+div {
+  display: inline-block;
+}
+
+#cabeçalio {
+  width: 100%;
+  height: 100px;
+  background-color: #cc0000;
+}
+
+#logo {
+  width: 75px;
+  margin: 12.5px 0 0 12.5px;
+  transition: 2s all;
+}
+
+#logo:hover{
+  transform: rotate(36deg);
+}
+
+#area {
+  position: relative;
+  top: -30px;
+  display: inline-block;
+  margin: 0 16.1%;
+  color: white;
+}
+
+#login {
+  position: relative;
+  top: -60px;
+  left: 0%;
+  background-color: gold;
+  font-size: 20px;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+#register {
+  position: relative;
+  top: -60px;
+  left: 0%;
+  background-color: gold;
+  font-size: 20px;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+/*---------------------------*/
+
+#categoria{
+  display: inline-block;
+  color: white;
+}
+
+/*---------------------------*/
+
+#item {
+  width: 98%;
+  height: 220px;
+  margin: 10px 0 0 10px;
+  background-color: #505050;
+  border-radius: 5px;
+}
+
+#img {
+  height: 210px;
+  width: 210px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+/*----------------------------------------*/
+
+#itens {
+  font-size: 17px;
+  color: rgb(240,240,240);
+  display: inline;
+  position: relative;
+  top: -170px;
+  left: 10px;
+}
+
+#itensp {
+  margin: 25px;
+  font-size: 15px;
+  color: rgb(240,240,240);
+  display: inline;
+  position: relative;
+  top: -150px;
+  left: 210px;
+}
+
+/*--------------------*/
+
+#piso {
+  position: relative;
+  top: 350px;
+  width: 100%;
+  height: 100px;
+  background-color: black;
+}

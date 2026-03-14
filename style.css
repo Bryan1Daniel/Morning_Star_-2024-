@@ -1,0 +1,198 @@
+body {
+  background-color: rgb(50, 50 ,50);
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+div {
+  display: inline-block;
+}
+
+#cabeçalio {
+  width: 100%;
+  height: 100px;
+  background-color: #cc0000;
+}
+
+#logo {
+  width: 75px;
+  margin: 12.5px 0 0 12.5px;
+  transition: 2s all;
+}
+
+#logo:hover{
+  transform: rotate(36deg);
+}
+
+#area {
+
+  position: relative;
+
+  top: -30px;
+
+
+  
+  display: inline-block;
+  margin: 0 16.1%;
+  color: white;
+}
+
+#login {
+  position: relative;
+  top: -60px;
+  left: 0%;
+  background-color: gold;
+  font-size: 20px;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+#register {
+  position: relative;
+  top: -60px;
+  left: 0%;
+  background-color: gold;
+  font-size: 20px;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+/*======== xoxota ========= */
+
+#item1 {
+  width: 120px;
+  height: 220px;
+  margin: 10px 0 0 10px;
+  background-color: #505050;
+  border-radius: 5px;
+}
+
+#img1{
+  height: 110px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+#img1:hover {
+  height: 100px;
+  margin: 7.5px;
+  margin-top: 12.5px;
+}
+
+/*--------------------*/
+
+#item2 {
+  width: 120px;
+  height: 220px;
+  margin: 10px 0 0 10px;
+  background-color: #505050;
+  border-radius: 5px;
+}
+
+#img2{
+  height: 110px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+#img2:hover {
+  height: 100px;
+  margin: 7.5px;
+  margin-top: 12.5px;
+}
+
+/*--------------------*/
+
+#item3 {
+  width: 120px;
+  height: 220px;
+  margin: 10px 0 0 10px;
+  background-color: #505050;
+  border-radius: 5px;
+}
+
+#img3{
+  height: 110px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+#img3:hover {
+  height: 100px;
+  margin: 7.5px;
+  margin-top: 12.5px;
+}
+
+/*-----------------*/
+
+#item4 {
+  width: 120px;
+  height: 220px;
+  margin: 10px 0 0 10px;
+  background-color: #505050;
+  border-radius: 5px;
+}
+
+#img4{
+  height: 110px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+#img4:hover {
+  height: 100px;
+  margin: 7.5px;
+  margin-top: 12.5px;
+}
+
+/*-----------------*/
+
+#item5 {
+  width: 120px;
+  height: 220px;
+  margin: 10px 0 0 10px;
+  background-color: #505050;
+  border-radius: 5px;
+}
+
+#img5{
+  height: 110px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+#img5:hover {
+  height: 100px;
+  margin: 7.5px;
+  margin-top: 12.5px;
+}
+
+/*-----------------Aqui é o lugar aonde a mãe chora e a criança não ve.*/
+
+#itemsc {
+  width: 120px;
+  height: 235px;
+  margin: 10px 0 0 10px;
+  background-color: #505050;
+  border-radius: 5px;
+}
+
+/*-----------------*/
+
+#itens {
+  font-size: 15px;
+  color: rgb(240,240,240);
+}
+
+#itensp {
+  margin: 25px;
+  font-size: 15px;
+  color: rgb(240,240,240);
+}
+
+/*-----------------*/
+
+#piso {
+  position: relative;
+  top: 350px;
+  width: 100%;
+  height: 100px;
+  background-color: black;
+}

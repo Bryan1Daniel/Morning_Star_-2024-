@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Login</title>
+  <link href="login.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div id="cabeçalio">
+
+    <a href="index.html"><img id="logo" src="logo.png"></a>
+
+    <a href="produtos.html"><h1 id="area">Produtos</h1></a>
+    <a href="customizacao.html"><h1 id="area">Customização</h1></a>
+
+    <a href="login.html"><button id="login"> login</button></a>
+
+    <a href="login.html"><button id="register"> registre-se </button></a>
+
+    <hr width="100%" size="4" color="white" style="position: relative; top: -5px;">
+  </div>
+
+  <main>
+
+    <form>
+
+      <label for="nome">Nome e Sobrenome:</label>
+      <input class="input-padrao" type="text" id="nome" required>
+
+      <label for="email">Email:</label>
+      <input class="input-padrao" type="email" id="email" required placeholder="XXXXX@gmail.com">
+
+      <label for="tel">Telefone:</label>
+      <input class="input-padrao" type="tel" id="tel" required placeholder="(XX) X XXXX-XXXX">
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea class="input-padrao" cols="10" rows="10" id="mensagem" placeholder="Envie seu feedback..."></textarea>
+
+      <fielset>
+
+        <legend>Como prefere o nosso contato?</legend>
+
+        <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+
+        <label for="radio-telefone"><input type="radio" name="contato" value="telefone"
+            id="radio-telefone">Telefone</label>
+
+        <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp"
+            checked>Whatsapp</label>
+
+        </fieldset>
+
+        <label><input class="checkbox" type="checkbox" checked>Gostaria de receber nossa oferta por email?</label>
+
+        <input type="submit" value="Enviar o formulário" class="enviar">
+
+
+    </form>
+
+
+  </main>
+
+  <div id="piso">
+    <p style="color: rgb(170,170,170); text-align: center;">NOS CONTATE!<br>contact.morningstarcorp@gmail.com</p>
+    <img src="HuTao.jpg" style="position: relative; top: 10px; left: 98.8%; height: 20px;">
+
+</body>
+
+</html>
